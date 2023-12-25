@@ -13,12 +13,7 @@ module.exports = {
         name: `content`,
         path: `${__dirname}/src/content`,
       },
-    }, {
-      resolve: `gatsby-plugin-transition-link`,
-      options: {
-        layout: require.resolve(`./src/components/Layout.jsx`)
-      }
-    },
+    }, 
     `gatsby-transformer-remark`,
   ],
 }
